@@ -1,0 +1,12 @@
+{
+  "name": "@finance/backend",
+  "version": "1.0.0",
+  "description": "Express typescript backend of Finance Tracker",
+  "license": "ISC",
+  "author": "Sarthak Jejurkar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

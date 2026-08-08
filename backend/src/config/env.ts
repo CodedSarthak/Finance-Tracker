@@ -1,0 +1,1 @@
+// load all env files here from process.env and export them as a single object

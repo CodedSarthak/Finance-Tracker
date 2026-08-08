@@ -1,0 +1,1 @@
+// Register all routes here and export them as a single router in app.ts

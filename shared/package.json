@@ -1,12 +1,24 @@
 {
   "name": "@finance-tracker/shared",
   "version": "1.0.0",
-  "description": "Shared files for frontend and backend",
-  "license": "ISC",
+  "description": "Shared types, schemas, enums and utilities",
   "author": "Sarthak Jejurkar",
+  "license": "ISC",
   "type": "module",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "start": "node index.js"
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist"
   }
 }

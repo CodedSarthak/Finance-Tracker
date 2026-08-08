@@ -1,5 +1,5 @@
 {
-  "name": "@finance/shared",
+  "name": "@finance-tracker/shared",
   "version": "1.0.0",
   "description": "Shared files for frontend and backend",
   "license": "ISC",

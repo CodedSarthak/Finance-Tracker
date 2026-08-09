@@ -4,6 +4,7 @@
   "description": "Finance Tracker to track money, savings and expenses",
   "homepage": "https://github.com/CodedSarthak/Finance-Tracker#readme",
   "packageManager": "pnpm@10.0.0",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CodedSarthak/Finance-Tracker.git"
@@ -17,5 +18,9 @@
     "lint": "pnpm -r lint",
     "test": "pnpm -r test",
     "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "^7.0.2"
   }
 }

@@ -1,13 +1,17 @@
 {
   "name": "@finance-tracker/backend",
+  "private": true,
   "version": "1.0.0",
   "description": "Express typescript backend of Finance Tracker",
   "license": "ISC",
   "author": "Sarthak Jejurkar",
   "type": "module",
-  "main": "index.js",
+  "main": "./dist/server.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@finance-tracker/shared": "workspace:*"
